@@ -1,0 +1,145 @@
+:root{
+    --navbar: #333333;
+    --apple-icon:#d6d6d6;
+    --wishlist:#EA2027;
+    --sierra-blue:#69abce;
+    --graphite:#251607;
+    --gold:#feedd7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    overflow: hidden;
+    width: 100%;
+    height: 780px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: var(--navbar);
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--apple-icon);
+    margin: 0 25px;
+    font-size: 14px;
+}
+
+.fa-apple{
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+}
+
+.detail{
+    width: 50%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.product-name{
+    height: 10%;
+}
+
+.description{
+    height: 20%;
+}
+
+.choice{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p.price{
+    font-size: 18px;
+}
+
+.color-icons a:first-child{
+    color: var(--graphite);
+}
+
+.color-icons a:nth-child(2){
+    color: var(--sierra-blue);
+}
+
+.color-icons a:last-child{
+    color: var(--gold);
+}
+
+.fa-heart{
+    color: var(--navbar);
+}
+
+.credit{
+    height: 30;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.select-credit{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 120px;
+}
+
+.form-select{
+    width: 60%;
+}
+
+.show-price{
+    width: 20%;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.main-img img{
+    width: 50%;
+}
+
+.child-imgs{
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.child-imgs img{
+    width: 20%;
+    margin: 50px 5px 0;
+    padding: 10px;
+    cursor: pointer;
+}
